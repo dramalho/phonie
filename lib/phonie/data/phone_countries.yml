@@ -184,7 +184,7 @@
   :iso_3166_code: BR
   :name: Brazil
   :area_code: ((1[1-9]|2[12478]|3[1-578]|4[1-9]|5[1-5]|6[1-9]|7[134579]|8[1-9]|9[1-9])|0[3589]00)
-  :local_number_format: ([2-5]\d{7}|9?[6-9]\d{7}|\d{7})
+  :local_number_format: ([2-5]\d{7}|9?[4-9]\d{7}|\d{7})
   :mobile_format: ([129][1-9]9|[3-9][1-9])[6-9]\d{7}
   :number_format: \d{10,11}
 -
@@ -229,6 +229,10 @@
   :char_2_code: None
   :iso_3166_code: FJ
   :name: Fiji
+  :area_code: \d
+  :number_format: \d{7}
+  :local_number_format: \d{6}
+  :mobile_format: '[7,8,92,99]\d{5,6}'
   :international_dialing_prefix: '00'
 -
   :country_code: '509'
@@ -348,6 +352,10 @@
   :char_2_code: '0'
   :iso_3166_code: UG
   :name: Uganda
+  :area_code: '4\d{1,2}|7\d{1}|9\d{2}'
+  :number_format: '\d{9}'
+  :local_number_format: '\d{6,7}'
+  :mobile_format: '(70|71|75|77|78|90)\d{7}'
   :international_dialing_prefix: '00'
 -
   :country_code: '228'
@@ -1505,7 +1513,7 @@
   :iso_3166_code: GB
   :name: United Kingdom
   :international_dialing_prefix: '00'
-  :area_code: 2[03489]|11[3-8]|1[2-69]1|1(3873|5(242|39[456])|697[347]|768[347]|9467)|1[2-9]\d{2}|3[0347]\d|500|5[56]|70|7([45789]\d{2}|624)|8(0[08]|4[2-5]|7[0-3])|9[018]\d
+  :area_code: 2[03489]|11[3-8]|1[2-69]1|1(3873|5(242|39[456])|697[347]|768[347]|9467)|1[2-9]\d{2}|3[0347]\d|500|5[56]|70|7([45789]\d{2}|624|341)|8(0[08]|4[2-5]|7[0-3])|9[018]\d
   :local_number_format: \d{4,8}
   :mobile_format: '7[1-9]\d{8}'
   :number_format: \d{9,10}
